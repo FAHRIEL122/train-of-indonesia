@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML</title>
+    <style>
+        body{
+            font-family: arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container{
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        nav {                                       
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .section{
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+    </style>
+    </head>
+
+<body>
+    <div id="container">
+        <nav>
+            <ul>
+                <li><a href="#home">beranda</a></li>
+                <li><a href="tentang.html">tentang</a></li>
+                <li><a href="home.html">picture</a></li>
+                <li><a href="#contact">kontak</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="content">
+        <div id="home" class="section">
+            <h1>selamat datang</h1>
+            <p>ini adalah halaman beranda</p>
+        </div>
+        <div id="about" class="section">
+            <h2>tentang kami</h2>
+            <p>informasi tentang kami di sini</p>
+        </div>
+        <div id="home.html" class="section">
+            <h2>Foto Lokomotif</h2>
+            <p>daftar layanan yang kami daftarkan</p>
+        </div>
+        <div id="contact" class="section">
+            <h2>hubungi kami</h2>
+            <p>informasi kontak kami ada di sini</p>
+        </div>
+    </div>
+    
+</body>
+</html>
